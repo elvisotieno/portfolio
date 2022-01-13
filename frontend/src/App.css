@@ -1,0 +1,78 @@
+:root{
+  --mainColor:lightblue;
+  --secondaryColor:rgba(97, 97, 207, 0.377);
+
+  --borderColor:rgb(128, 128, 128);
+  --mainText:rgb(17, 16, 16);
+  --secondaryText:#4b5156;
+}
+.App {
+  padding: 0%;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6,strong{
+  color: var(--mainText);
+
+}
+p,li,span,input,textarea{
+
+}
+.s1{
+  background-color: var(--mainColor);
+  border-bottom:1px solid var(--borderColor);
+  overflow: auto;
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom:1px solid var(--borderColor);
+  overflow: auto;
+  
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom: var(--borderColor);
+  
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom: var(--borderColor);
+  
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom: var(--borderColor);
+  
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom: var(--borderColor);
+  
+}.s1{
+  background-color: var(--mainColor);
+  border-bottom: var(--borderColor);
+  
+}
+.s2{
+  background-color: var(--secondaryColor);
+  border-bottom: var(--borderColor);  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
