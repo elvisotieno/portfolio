@@ -10,7 +10,7 @@ const HomePage = () => {
                         <h1>Hi, I am Elvis CEO DITES LTD</h1>  
                     </div> 
                     <div className='introWrapper'>
-                        <div className='navigation'>
+                        <div className='navWrapper'>
                             Nav
                         </div>
                         <div className='leftColumn'>
