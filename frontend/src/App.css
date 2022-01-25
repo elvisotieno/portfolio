@@ -64,6 +64,9 @@ h6{font-size: 16px;}
   -webkit-box-shadow: 17px 18px 8px -5px rgba(0,0,0,0.39);
   -moz-box-shadow: 17px 18px 8px -5px rgba(0,0,0,0.39);
 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
 .navWrapper{
 border: 1px dashed lightcoral;
