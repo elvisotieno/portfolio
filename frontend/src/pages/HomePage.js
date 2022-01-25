@@ -11,7 +11,12 @@ const HomePage = () => {
                     </div> 
                     <div className='introWrapper'>
                         <div className='navWrapper'>
-                            Nav
+                            <div className='dot-wrapper'>
+                                <div id='dot1' className='browser-wrapper'></div>
+                                <div id='dot2' className='browser-wrapper'></div>
+                                <div id='dot3' className='browser-wrapper'></div>
+                            </div>
+                            <div>nav</div>
                         </div>
                         <div className='leftColumn'>
                             Left_col
