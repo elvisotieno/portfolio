@@ -52,13 +52,13 @@ h6{font-size: 16px;}
 .greetingsWrapper{
   display: grid;
   justify-content: center;
-  text-align: center;
-  border: 2px dashed lightcoral;
+  text-align: center;  
   min-height: 10em;
 }
 .introWrapper{
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
+  border-radius: 5px 5px 00;
 
   box-shadow: 17px 18px 8px -5px rgba(0,0,0,0.39);
   -webkit-box-shadow: 17px 18px 8px -5px rgba(0,0,0,0.39);
@@ -66,16 +66,19 @@ h6{font-size: 16px;}
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3em 20em;
+  grid-template-areas: 'navigation navigation' 'left-column right-column';
 
 }
 .navWrapper{
-border: 1px dashed lightcoral;
+  grid-area: navigation;
+  border-bottom: 1px solid var(--borderColor);
 }
 .leftColumn{
-  border: 1px dashed lightcoral;
+  grid-area: left-column;  
   }
 .rightColumn{
-    border: 1px dashed lightcoral;
+  grid-area: right-column;    
     }
 @media screen and (max-width: 1200px){
   .mainContainer{
